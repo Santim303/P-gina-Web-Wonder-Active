@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'Century Gothic Paneuropean Regular';
+    src: url(../multimedia/CenturyGothicPaneuropeanRegular.ttf);
+}
+
+@font-face {
+    font-family: 'Coves Light';
+    src: url(../multimedia/Coves\ Light.otf);
+}
+
+html,
+body {
+width:100%;
+overflow-x: hidden;
+}
+
+
+.button-27 {
+    background-color: rgb(153, 182, 124);
+    border: 2px solid rgb(153, 182, 124);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family:  'Century Gothic Paneuropean Regular';
+    font-size: clamp(0.9rem, 0.76rem + 0.93vw, 1.6rem);
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 0.9rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 60%;
+    will-change: transform;
+  }
+  
+  .button-27:disabled {
+    pointer-events: none;
+  }
+  
+  .button-27:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-27:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+.button-48 {
+  background-color: #FFFFFF;
+  border-width: 0;
+  color: #000000;
+  cursor: pointer;
+  font-family: 'Century Gothic Paneuropean Regular';
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 1.5em 2.2em;
+  position: relative;
+  text-align: center;
+  text-rendering: geometricprecision;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-48:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: #EBEBEB;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+}
+
+.button-48:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+.button-48:after {
+  background-color: #FFFFFF;
+}
+
+.button-48 span {
+  z-index: 1;
+  position: relative;
+}
+
+.button-28 {
+    background-color: rgb(153, 182, 124);
+    border: 3px solid rgb(153, 182, 124);
+    border-radius: 1rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Century Gothic Paneuropean Regular';
+    font-size: clamp(0.9rem, 0.76rem + 0.93vw, 1.6rem);
+    font-weight: 600;
+    line-height: normal;
+    padding: 16px 24px;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 55%;
+    will-change: transform;
+  }
+  
+  .button-28:disabled {
+    pointer-events: none;
+  }
+  
+  .button-28:hover {
+    color: rgb(153, 182, 124);
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.titulo1{
+    font-family: 'Century Gothic Paneuropean Regular';
+    font-size: clamp(2rem, 1.7rem + 2vw, 3.5rem);
+  }
+
+.texto1{
+    font-family: 'Coves Light';
+    font-size: clamp(0.9rem, 0.78rem + 0.8vw, 1.5rem);
+}
+
+.video{
+    width: 5rem;
+}
+
+.texto2{
+    font-family: 'Coves Light';
+    font-size: clamp(1rem, 0.86rem + 0.93vw, 1.7rem);
+}
+
+.proyecto{
+    background-image: url(../multimedia/proyecto.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: clamp(17rem, 11.4rem + 37.33vw, 45rem);
+}
+
+.titulo2{
+    font-family: 'Century Gothic Paneuropean Regular';
+    font-size: clamp(0.9rem, 0.64rem + 1.73vw, 2.2rem);
+}
+
+.texto3{
+    font-family: 'Coves Light';
+    font-size: clamp(0.5rem, 0.36rem + 0.93vw, 1.2rem);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cardImg{
+  width: 30%;
+}
+
+.card-title{
+  font-family: 'Century Gothic Paneuropean Regular';
+  font-size: 2.6rem;
+}
+
+.card-text{
+  font-family: 'Coves Light';
+  font-size: 1.3rem;
+}
+
+footer{
+    background-color: rgb(103, 168, 161);
+}
+
+.titulo3{
+    font-family: 'Century Gothic Paneuropean Regular';
+    font-size: 2.2rem;
+}
+
+.texto4{
+    font-family: 'Coves Light';
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+}
+
+.texto4:hover{
+    color: #cccccc;
+}
+
+.redes:hover{
+  filter: drop-shadow(16px 16px 20px red) invert(80%);
+}
+
+.texto5{
+    font-family: 'Coves Light';
+    font-size: clamp(0.6rem, 0.42rem + 1.2vw, 1.5rem);;
+}
